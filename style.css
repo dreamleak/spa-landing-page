@@ -1,0 +1,139 @@
+/* ===========
+  global styles
+============= */
+
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+margin: 0;
+padding: 0;
+min-width: 100vw;
+}
+
+/* ===========
+  typography
+============= */
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 2em;
+}
+
+li>a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-logo {
+  font-size: 24px; 
+  color: #F9FAF8;
+}
+
+.content-container-two>p,
+.side-caption, 
+.header, 
+.footer,
+ul {
+  color: #F9FAF8;
+}
+
+.header {
+  font-size: 48px;
+}
+
+.product-captions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+ }
+
+
+.blockquote {
+  background-color: #ccc;
+}
+
+/* ===========
+  layout
+============= */
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #1F2937;
+  padding: 1em;
+}
+
+.nav-bar {
+  align-self: flex-end;
+}
+
+.content-container-two {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3em;
+  padding: 4em;
+  gap: 1.5em;
+}
+
+.content-container-three,
+.content-container-four {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #F9FAF8;
+  min-width: 100vw;
+  gap: 1.5em;
+  padding: 1em;
+}
+
+.product-image-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9FAF8;
+  min-width: 100vw;
+  gap: 1.5em;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #1F2937;
+}
+
+/* =========
+  images
+  ========== */
+
+  .bath-house-image {
+    max-width: 50%;
+    border-radius: .5em .5em;
+    align-self: flex-end;
+  }
+  
+  .product-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+/* ===========
+  components
+============= */
+ /* buttons !! */ 
+
