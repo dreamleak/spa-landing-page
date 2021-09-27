@@ -67,13 +67,15 @@ ul {
   font-size: 60px;
 }
 
-.product-header {
+.product-header,
+.contact-header {
   padding: 1.5em;
   color: rgb(79, 77, 93);
 }
 
 .header,
 .product-header,
+.contact-header,
 button {
   font-family: 'Lobster Two', cursive;
 }
@@ -98,6 +100,14 @@ button {
 .signup-caption {
   margin: auto 0;
   color: rgb(31, 41, 55);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(31, 41, 55);
+  font-size: 1rem;
 }
 
 /* ===========
@@ -148,19 +158,17 @@ button {
   gap: 3em;
 }
 
-.email-signup {
+.signup-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   background-color: rgb(187, 176, 197);
-  width: 800px;
-  height: 160px;
   border-radius: 0.5em 0.5em;
   gap: 1.5em;
   padding: 4em;
 }
 
-.email-wrapper {
+.contact-wrapper {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -168,6 +176,12 @@ button {
   background-color: #F9FAF8;
   padding: 4em 4em 4em 4em;
   min-width: 100%;
+}
+
+.contact-form {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1.5em;
 }
 
 .footer {
@@ -217,4 +231,13 @@ button {
   box-shadow: 0px 2px 1px;
   border-radius: 16px;
   cursor: pointer;
+}
+
+input {
+  border: 0.310em solid rgba(21, 15, 34, 0.432); 
+  padding: 0.625em;
+  background: transparent;
+  color:rgb(31, 41, 55);
+  margin: 0 0 10px 0;
+  accent-color: rgb(66, 40, 107);
 }
